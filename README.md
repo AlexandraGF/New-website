@@ -5,7 +5,7 @@
 
   <title>Unnoticed work...</title>
   <h1 class="text-heading">And your journey begins today...</h1>
-  <h2 class="text-2"><a href="https://unnoticed.blog">by Alexandra F.</a></h2>
+  <a href="https://unnoticed.blog"><h2 class="text-2">by Alexandra F.</h2></a>
   
   
 </html>
