@@ -16,8 +16,8 @@
   <p class="Paragraph">If we would have to wait until we're ready, we might wait a long time...so why not today?</p><br>
  
   <div id="myDiv">
-  An image in a DIV<br>
-  <img id="myImage1" href="https://unnoticeddotblog.files.wordpress.com/2017/04/img_3525-2.jpg?w=2000&h=1500&crop=1">
+  Image selection<br>
+  <img id="myImage" src="https://unnoticeddotblog.files.wordpress.com/2017/04/img_3525-2.jpg?w=2000&h=1500&crop=1">
 </div>
 <br><br>
 <input type="button" onclick="randomImg1()" value="-------> Click Me! <--------">
