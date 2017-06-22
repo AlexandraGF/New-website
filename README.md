@@ -14,50 +14,14 @@
   <br><br>
   
   <p class="Paragraph">If we would have to wait until we're ready, we might wait a long time...so why not today?</p><br>
-  
-  <script>
-  $(document).ready(function() {
-
-    $("#getMessage").on("click", function() {
-      $.getJSON("https://unnoticed.blog/2017/06/21/beautiful-day-in-london/", function(json) {
-
-        var html = "";
-
-        json.forEach(function(val) {
-
-          html += "<div class = 'cat'>";
-
-          // Only change code below this line.
-          
-          html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>";
-          
-
-          html += "</div>";
-
-        });
-
-        $(".message").html(html);
-
-      });
-    });
-  });
-</script>
-
-<div class="container-fluid">
-  <div class = "row text-center">
-    <h2>Cat Photo Finder</h2>
-  </div>
-  <div class = "row text-center">
-    <div class = "col-xs-12 well message">
-      The message will go here
-    </div>
-  </div>
-  <div class = "row text-center">
-    <div class = "col-xs-12">
-      <button id = "getMessage" class = "btn btn-primary">
-        Get Message
-      </button>
-  
  
+  <div id="myDiv">
+  An image in a DIV<br>
+  <img id="myImage" src="https://unnoticeddotblog.files.wordpress.com/2017/04/img_4042.jpg?w=2000&h=1500&crop=1">
+</div>
+<br><br>
+<input type="button" onclick="randomImg1()" value="-------> Click Me! <--------">
+  
+  
 </html>
 
