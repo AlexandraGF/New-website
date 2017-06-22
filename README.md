@@ -22,5 +22,4 @@
 <br><br>
 <input type="button" onclick="randomImg()" value="-------> Click Me! <--------">
   
-  
 </html>
