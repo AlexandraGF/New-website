@@ -20,7 +20,7 @@
   <img id="myImage" src="https://unnoticeddotblog.files.wordpress.com/2017/04/img_3525-2.jpg?w=2000&h=1500&crop=1">
 </div>
 <br><br>
-<input type="button" onclick="randomImg1()" value="-------> Click Me! <--------">
+<input type="button" onclick="randomImg()" value="-------> Click Me! <--------">
   
   
 </html>
