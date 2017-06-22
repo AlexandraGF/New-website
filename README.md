@@ -22,4 +22,17 @@
 <br><br>
 <input type="button" onclick="randomImg()" value="-------> Click Me! <--------">
   
+  
+  
+  <script>
+  window.randomImg = function() {
+    var myImage = new Array();
+    myImage[0] = "https://unnoticeddotblog.files.wordpress.com/2017/04/img_4042.jpg?w=2000&h=1500&crop=1";
+    myImage[1] = "https://unnoticeddotblog.files.wordpress.com/2017/06/img_3806.jpg?w=2000&h=1500&crop=1";
+    myImage[2] = "https://unnoticeddotblog.files.wordpress.com/2017/05/img_4082.jpg?w=2000&h=1500&crop=1";
+    var random = Math.floor(Math.random() * myImage.length);
+    document.getElementById("myImage").src = myImage[random];
+  }
+  </script>
+  
 </html>
