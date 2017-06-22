@@ -12,7 +12,7 @@
               <a href="https://twitter.com/unnoticedblog">Twitter</a></button><br>
   <br><br>
   
-  <p>If we would have to wait until we're ready, we might wait a long time...so why not today?</p>
+  <p class="Paragraph">If we would have to wait until we're ready, we might wait a long time...so why not today?</p>
 
   
 </html>
