@@ -22,6 +22,8 @@
 </div>
 <br>
 <input type="button" onclick="randomImg()" value=" Click here for a new photo">
-  </div>
+  </div><br>
+  
+  
   
 </html>
