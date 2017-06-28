@@ -21,7 +21,7 @@
   <img id="myImage" src="https://unnoticeddotblog.files.wordpress.com/2017/04/img_3525-2.jpg?w=2000&h=1500&crop=1">
 </div>
 <br>
-<input type="button" onclick="randomImg()" alt="Click here for a new photo">
+<input type="button" onclick="randomImg()" value="Click here for a new photo">
   </div><br>
   
   
